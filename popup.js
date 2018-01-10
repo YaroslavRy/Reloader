@@ -1,5 +1,4 @@
 function settingChanged() {
-	var type = this.id;
 	var setting = this.value;
 	var strTime = setting.toString()
 	var s = strTime.split('.')
